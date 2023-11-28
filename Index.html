@@ -4,61 +4,96 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Image and Text Boxes Website</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-        }
+   
+    <!-- Styling CSS Body and Basics -->
+   
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="Slider.css">
+    <link rel="stylesheet" href="nav.css">
+    <script src="Script.js"></script>
 
-        header {
-            background-color: #333;
-            color: #fff;
-            padding: 10px;
-            text-align: center;
-        }
 
-        main {
-            width: 100%;
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: space-around;
-            align-items: flex-start;
-            box-sizing: border-box;
-        }
-
-        .box {
-            flex: 1; /* Each box takes up equal space */
-            padding: 15px;
-            box-sizing: border-box;
-            border: 1px solid #ddd;
-            background-color: #fff;
-            overflow: hidden;
-            margin: 10px;
-        }
-
-        .box img {
-            max-width: 100%;
-            height: auto;
-        }
-
-        footer {
-            background-color: #333;
-            color: #fff;
-            padding: 10px;
-            text-align: center;
-        }
-    </style>
 </head>
-<body>
 
+<!-- Body Start -->
+
+<body>
 <header>
-    <h1>Watch Wisely</h1>
+    <nav class="navbar">
+		<div class="navdiv">
+			<div class="logo"><a href="#"><!-- <img src="F:\ICT PROJET\Images\logos.jpg" width="130px" height="60px"> -->Watch-Wisely</a></div>
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">About</a></li>
+				<li><a href="#">Contact</a></li>
+				<button><a href="#">SignIn</a></button>
+				<button><a href="#">SignUp</a></button>
+			</ul>
+		</div>
+	</nav>
+<!--     <h1></h1> -->
 </header>
 
+<!-- Slideshow Slider -->
+
+<h1><center>TRENDING MOVIES</center></h1>
+<div class="maindivbg">
+<div class= "maindiv1"> 
+</div>
+</div>    
+
+
+
+<!-- 
+        https://cdn.theplaylist.net/wp-content/uploads/2016/04/29092916/The-Killer-David-Fincher-750x400.jpg
+        https://roost.nbcuni.com/bin/viewasset.html/content/dam/Peacock/Landing-Pages/campaign/fnaf/fnaf-social.jpg/_jcr_content/renditions/original.JPG
+        https://lbj-new-assets.s3.amazonaws.com/styles/detail_image/s3/events/images/2023-08/AEW_Lady_Bird_Diaries_banner.jpg?VersionId=hnjowoPupmAu3a0NFX59HAQpc8Y_ooR_&itok=ai5bgbdz  
+        https://www.goldderby.com/wp-content/uploads/2023/10/Killers-of-the-Flower-Moon.jpg?w=620
+        https://i0.wp.com/www.irishfilmcritic.com/wp-content/uploads/2023/07/Blue-Beetle.jpg?fit=1392%2C696&ssl=1    
+    -->
+
+
+
+
+
+<div class="firstsep"> 
+    <div class="insidefirstsep">
+        <h3> Movies change on a weekly baisis. Be patient for reviews and the works!</h3>
+    </div>
+
+</div>
+
+<!--
+--
+--
+This is the front page movies code
+--
+-- 
+-->
+<div class="outerbox">
 <main>
     <div class="box">
+        <img src = "https://irs.www.warnerbros.com/keyart-jpeg/movies/media/browser/blade_runner_final_cut_2000x3000.jpg">
+        <h4><center><a href="F:\ICT PROJET\Movies\Unfinished\Moviesample.html">Blade Runner 2049 </a></center></h4>
+        <p>This is the content of Movie.</p>
+    </div>
+
+    <div class="box">
+        <img src = "https://i0.wp.com/www.irishfilmcritic.com/wp-content/uploads/2023/07/Blue-Beetle.jpg?fit=1392%2C696&ssl=1">
+        <h2>Movie</h2>
+        <p>This is the content of Movie.</p>
+    </div>
+
+<div class="box">
+        <h2>Movie</h2>
+        <p>This is the content of Movie.</p>
+    </div>
+
+<div class="box">
+        <h2>Movie</h2>
+        <p>This is the content of Movie.</p>
+    </div>
+<div class="box">
         <h2>Movie</h2>
         <p>This is the content of Movie.</p>
     </div>
@@ -68,20 +103,10 @@
         <p>This is the content of Movie.</p>
     </div>
 
-<div class="box">
+    <div class="box">
         <h2>Movie</h2>
         <p>This is the content of Movie.</p>
     </div>
-
-<div class="box">
-        <h2>Movie</h2>
-        <p>This is the content of Movie.</p>
-    </div>
-<div class="box">
-        <h2>Movie</h2>
-        <p>This is the content of Movie.</p>
-    </div>
-    <!-- Add more boxes as needed -->
 
 </main>
 
@@ -110,7 +135,16 @@
         <h2>Movie</h2>
         <p>This is the content of Movie.</p>
     </div>
-    <!-- Add more boxes as needed -->
+    
+    <div class="box">
+        <h2>Movie</h2>
+        <p>This is the content of Movie.</p>
+    </div>
+
+    <div class="box">
+        <h2>Movie</h2>
+        <p>This is the content of Movie.</p>
+    </div>
 
 </main>
 
@@ -139,7 +173,17 @@
         <h2>Movie</h2>
         <p>This is the content of Movie.</p>
     </div>
-    <!-- Add more boxes as needed -->
+
+    <div class="box">
+        <h2>Movie</h2>
+        <p>This is the content of Movie.</p>
+    </div>
+
+    <div class="box">
+        <h2>Movie</h2>
+        <p>This is the content of Movie.</p>
+    </div>
+   
 
 </main>
 
@@ -168,12 +212,32 @@
         <h2>Movie</h2>
         <p>This is the content of Movie.</p>
     </div>
-    <!-- Add more boxes as needed -->
+
+    <div class="box">
+        <h2>Movie</h2>
+        <p>This is the content of Movie.</p>
+    </div>
+
+    <div class="box">
+        <h2>Movie</h2>
+        <p>This is the content of Movie.</p>
+    </div>
+    
 
 </main>
+</div>
+
+<!--
+--
+--
+Front page movie code ends here
+--
+-- 
+-->
+
 
 <footer>
-    <p>&copy; 2023 Image and Text Boxes Website</p>
+    <p>&copy; 2023 Coptrights Reserved</p>
 </footer>
 
 </body>
